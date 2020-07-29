@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Poiret+One&family=Roboto&display=swap');
+
+body{
+  background-color:#364559;
+  text-align:center;
+}
+
+.container{
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card{
+  background:#5D768C;
+  padding:3em 2em;
+  margin:3em 0;
+  box-shadow: 1px 1px #99B1BF;
+}
+
+h1{
+  font-family: 'Lora', serif;
+  font-size: 32px;
+  color:#99B1BF;
+}
+
+h2{
+  font-size: 1.5em;
+  color:#99B1BF;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color:#F2F2F2;
+}
+
+img{
+  margin-bottom:15px;
+}
+
+a{
+  display: block;
+  color:#80A6A6;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color:#F2F2F2;
+
+}
+
+li a{
+  color:#fff;
+}
+
+.btn{
+  border-radius:0.3em;
+  background:#80A6A6;
+  color:#fff;
+  display:inline-block;
+  padding:15px 20px;
+  box-shadow: 1px 1px #99B1BF;
+}
+
+.btn:hover{
+  background:#719595;
+  color:#fff;
+  transition: 0.5s
+}
+
+.btn:active{
+  transform: translateY(4px);
+  transition: 0;
+}
+
+.profile{
+  /*box-shadow: 2px 2px #99B1BF;*/
+  border: solid 1px #99B1BF;
+}
+
+.round-corner{
+  border-radius:0.3em;
+}
+
+.circle{
+  border-radius:50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style:none;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  h1 span{
+    display:block;
+  }
+
+  h1, h2{
+    text-align: center;
+    margin-top:0;
+  }
+
+  .card{
+    padding:2em 1em;
+    margin:2em 0;
+  }
+
+  .description span{
+    display:block;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
