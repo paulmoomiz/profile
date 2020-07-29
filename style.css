@@ -35,6 +35,7 @@ body{
   padding:3em 2em;
   margin:3em 0;
   box-shadow: 1px 1px #99B1BF;
+  opacity: 0.8;
 }
 
 h1{
